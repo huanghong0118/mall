@@ -3,7 +3,7 @@ package com.zhh.mall.common.log;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;
 import cn.hutool.json.JSONUtil;
-import com.macro.mall.common.domain.WebLog;
+import com.zhh.mall.common.domain.WebLog;
 import io.swagger.annotations.ApiOperation;
 import net.logstash.logback.marker.Markers;
 import org.aspectj.lang.JoinPoint;
@@ -39,7 +39,7 @@ import java.util.Map;
 public class WebLogAspect {
     private static final Logger LOGGER = LoggerFactory.getLogger(WebLogAspect.class);
 
-    @Pointcut("execution(public * com.macro.mall.controller.*.*(..))||execution(public * com.macro.mall.*.controller.*.*(..))")
+    @Pointcut("execution(public * com.zhh.mall.controller.*.*(..))||execution(public * com.zhh.mall.*.controller.*.*(..))")
     public void webLog() {
     }
 

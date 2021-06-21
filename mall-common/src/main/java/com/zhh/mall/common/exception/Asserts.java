@@ -1,6 +1,7 @@
 package com.zhh.mall.common.exception;
 
-import com.macro.mall.common.api.IErrorCode;
+
+import com.zhh.mall.common.api.IErrorCode;
 
 /**
  * 断言处理类，用于抛出各种API异常

@@ -1,6 +1,6 @@
 package com.zhh.mall.common.service.impl;
 
-import com.macro.mall.common.service.RedisService;
+import com.zhh.mall.common.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
