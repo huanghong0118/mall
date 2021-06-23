@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zhh.mall.admin.dao.SmsFlashPromotionProductRelationDao">
+<mapper namespace="com.zhh.mall.dao.SmsFlashPromotionProductRelationDao">
     <resultMap id="flashProductMap" type="com.zhh.mall.dto.SmsFlashPromotionProduct" extends="com.zhh.mall.mapper.SmsFlashPromotionProductRelationMapper.BaseResultMap">
         <association property="product" resultMap="com.zhh.mall.mapper.PmsProductMapper.BaseResultMap" columnPrefix="p_"/>
     </resultMap>
